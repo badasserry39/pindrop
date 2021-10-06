@@ -1,0 +1,9 @@
+{
+  "name": "pindrop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "5.4.7"
+  }
+}
