@@ -4,10 +4,9 @@ Unlock Inc. wants to airdrop UDT tokens to anyone who has contributed to the pro
 However we are building a claim mechanism that will require users to delegate their tokens if they want to claim them.
 
 Rules are the following:
-* every token holder at block `13136426` who owns more than 5 UDT will receive 1 UDT
+* every token holder at block `13136426` who owns more than 3 UDT will receive 1 UDT
 * every user who has deployed 1 lock will receive 3 UDT per lock they deployed
 * every user who has purchased 1 key will receive 1 UDT per key purchased
-
 
 ## Extracting recipient addresses
 
@@ -84,4 +83,4 @@ curl -X GET "https://api.covalenthq.com/v1/1/tokens/0x9ca8aef2372c705d6848fdda3c
 
 ## Create a claimAndDelegate fork of the Uniswap merkle-dristribution repo!
 
-See repo for script.
+[See repo](https://github.com/unlock-protocol/merkle-distributor)
