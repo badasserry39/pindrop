@@ -70,6 +70,7 @@ curl -X GET "https://api.covalenthq.com/v1/1/tokens/0x90de74265a416e1393a4507521
 curl -X GET "https://api.covalenthq.com/v1/1/tokens/0x90de74265a416e1393a450752175aed98fe11517/token_holders/?block-height=13136426&page-number=2&page-size=1000&key=ckey_44739eb00dd649e182e708ba705" -H "Accept: application/json"
 curl -X GET "https://api.covalenthq.com/v1/1/tokens/0x90de74265a416e1393a450752175aed98fe11517/token_holders/?block-height=13136426&page-number=3&page-size=1000&key=ckey_44739eb00dd649e182e708ba705" -H "Accept: application/json"
 curl -X GET "https://api.covalenthq.com/v1/1/tokens/0x90de74265a416e1393a450752175aed98fe11517/token_holders/?block-height=13136426&page-number=4&page-size=1000&key=ckey_44739eb00dd649e182e708ba705" -H "Accept: application/json"
+```
 
 And combined the result, and then restricted to all token holders with 3 UDT or more.
 
@@ -77,8 +78,6 @@ We are also adding any user who has been providing liquidity to the Uniswap v2 p
 
 ```bash
 curl -X GET "https://api.covalenthq.com/v1/1/tokens/0x9ca8aef2372c705d6848fdda3c1267a7f51267c1/token_holders/?block-height=13136426&page-number=0&page-size=1000&key=ckey_44739eb00dd649e182e708ba705" -H "Accept: application/json"
-```
-
 ```
 
 ## Create a claimAndDelegate fork of the Uniswap merkle-dristribution repo!
